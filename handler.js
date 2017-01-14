@@ -77,8 +77,7 @@ module.exports.webhookGet = (event, context, callback) => {
     body: null
   }
 
-  console.log(9919, event)
-  if (event.queryStringParameters['hub.verify_token'] === 'huehuehue') {
+  if (event.queryStringParameters['hub.verify_token'] === process.env.FB_BOT_VERIFY_TOKEN) {
     response.body = event.queryStringParameters['hub.challenge']
   } else {
     response.body = 'wrong token'
