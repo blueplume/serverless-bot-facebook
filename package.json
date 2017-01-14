@@ -1,0 +1,31 @@
+{
+  "name": "serverless-bot-facebook",
+  "version": "1.0.0",
+  "description": "Serverless v1 based Facebook Bot, based on jw84/messenger-bot-tutorial",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yickling/serverless-bot-facebook.git"
+  },
+  "keywords": [
+    "facebook",
+    "bot",
+    "serverless",
+    "messenger",
+    "boilerplate",
+    "template"
+  ],
+  "author": "yickling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yickling/serverless-bot-facebook/issues"
+  },
+  "homepage": "https://github.com/yickling/serverless-bot-facebook#readme",
+  "dependencies": {
+    "aws-serverless-express": "^1.2.0",
+    "request": "^2.79.0"
+  }
+}
