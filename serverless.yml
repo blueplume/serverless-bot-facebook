@@ -42,7 +42,7 @@ provider:
 
 # you can define service wide environment variables here
   environment:
-    FB_PAGE_ACCESS_TOKEN: EAAZARUhZAupZCQBAG927qPrZBsV0OyHbLuZAxGDJaErmbBzAluJ6rPGZCIsHIYElB4yHiEYnxsZADZBy6ZBNGIkn4ZBSboH34pYHEy1tNZAvElPOhoQ7rK2KjBZBpu2oVvoijtvO2SXsgXjPFDYmWIXvtvQwqisT423ktZB3ZAkR4M0CMsywZDZD
+    FB_PAGE_ACCESS_TOKEN: FAKE_TOKEN
     FB_BOT_VERIFY_TOKEN: my_voice_is_my_password_verify_me
 # you can add packaging information here
 #package:
